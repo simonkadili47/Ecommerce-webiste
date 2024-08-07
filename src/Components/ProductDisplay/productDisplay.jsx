@@ -33,6 +33,19 @@ function productDisplay(props) {
                 <div className="productdisplay-right-price-old">${product.old_price} </div>
                 <div className="productdisplay-right-price-new">${product.new_price}</div>
             </div>
+            <div className="productdisplay-right-description">
+                A lightweight usually knitted
+                </div>
+            <div className="productdisplay-right-size">
+                <h1>slect size</h1>
+                <div className="product-display-right-sizes">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
 
         </div>
 
