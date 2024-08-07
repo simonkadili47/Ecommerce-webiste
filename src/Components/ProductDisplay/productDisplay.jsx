@@ -39,13 +39,16 @@ function productDisplay(props) {
             <div className="productdisplay-right-size">
                 <h1>slect size</h1>
                 <div className="product-display-right-sizes">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div>Small</div>
+                    <div>Medium</div>
+                    <div>Large</div>
+                    <div>XL</div>
+                    <div>XXL</div>
                 </div>
             </div>
+            <button>ADD TO CART</button>
+            <p className='productdisplay-right-category'><span>Category :</span>Women, T-shirt, Crop-Top</p>
+            <p className='productdisplay-right-category'><span>Tags :</span>Morden, Latest</p>
 
         </div>
 
