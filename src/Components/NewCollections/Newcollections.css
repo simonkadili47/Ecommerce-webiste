@@ -1,0 +1,41 @@
+
+.new-collections {
+    text-align: center;
+    padding: 20px;
+    
+   
+  }
+  
+  .new-collections h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .new-collections hr {
+    width: 50%;
+    margin: 0 auto 20px;
+  }
+  
+  .collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 0; /* Remove space between grid items */
+    justify-content: center;
+  }
+  
+  .collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #fff;
+    padding: 0; /* Remove any padding */
+  }
+  
+  .collection img {
+    width: 80%; /* Ensure images take full width of the grid cell */
+    height: auto;
+    display: block;
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
