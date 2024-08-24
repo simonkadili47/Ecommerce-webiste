@@ -48,7 +48,7 @@ function productDisplay(props) {
             </div>
             <button>ADD TO CART</button>
             <p className='productdisplay-right-category'><span>Category :</span>Women, T-shirt, Crop-Top</p>
-            <p className='productdisplay-right-category'><span>Tags :</span>Morden, Latest</p>
+            <p className='productdisplay-right-category'><span>Tags :</span>Morden,</p>
 
         </div>
 
